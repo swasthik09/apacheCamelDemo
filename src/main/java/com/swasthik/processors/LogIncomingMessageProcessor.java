@@ -1,4 +1,4 @@
-package com.swasthik.apacheCamel.microserviceA.processors;
+package com.swasthik.processors;
 
 import org.apache.camel.Exchange;
 import org.apache.camel.Processor;

@@ -1,4 +1,4 @@
-package com.swasthik.apacheCamel.microserviceA.transformation;
+package com.swasthik.transformation;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

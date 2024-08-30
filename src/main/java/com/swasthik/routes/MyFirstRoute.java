@@ -1,4 +1,4 @@
-package com.swasthik.apacheCamel.microserviceA.routes;
+package com.swasthik.routes;
 
 import java.time.LocalDateTime;
 
@@ -6,8 +6,8 @@ import org.apache.camel.builder.RouteBuilder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.swasthik.apacheCamel.microserviceA.processors.LogIncomingMessageProcessor;
-import com.swasthik.apacheCamel.microserviceA.transformation.GetCurrentTimeTransformation;
+import com.swasthik.processors.LogIncomingMessageProcessor;
+import com.swasthik.transformation.GetCurrentTimeTransformation;
 
 //@Component
 public class MyFirstRoute  extends RouteBuilder{
